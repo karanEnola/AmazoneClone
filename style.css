@@ -1,0 +1,270 @@
+*{
+    margin:0px;
+    border: border-box;
+    font-family: Arial;
+   
+}
+.navbar{
+    background-color: #0f1111;
+    height:65px;
+    color:white;
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+    width:100%;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+
+} 
+.logo{
+    background-image: url("ama18.webp");
+    height: 50px;
+    width:100%; 
+    background-size: cover;
+      
+    
+  } 
+ .border{
+    border:1px solid transparent;
+    
+} 
+ .border:hover{
+    border:1px solid white;
+} 
+
+            /* box2 address */
+
+.add-first{
+    color:#CCCCCC;
+    font-size:0.85rem;
+    margin-left:15px;
+    /* margin-top:3px;
+    margin-right:3px; */
+
+} 
+
+.add-second{
+    font-size:1rem;
+    margin-left:3px;
+    /* margin-right:3px; */
+} 
+.add-icon{
+    align-items: center;
+    display: flex;
+    margin-left:8px;
+    /* margin-bottom:5px; */
+ } 
+
+       /* box3 Searchbar */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+     margin-left:8px; 
+    background-color:rgb(0, 204, 255);
+    width:620px;
+    height:40px;
+    border-radius:3px; 
+
+     
+}
+.select-search{
+    background-color:#f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+ 
+}
+.search-input{
+     width:100%;
+     font-size:1rem;
+     border:none;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color:#0f1111;
+}
+.search-input:hover{
+    border:2px solid orange;
+}
+
+/* Panel */
+.panel{
+ height:40px;
+ background-color:#222f3d;   
+ display:flex;
+ color:white;
+ justify-content: space-evenly;
+ align-items: center;
+
+}
+
+.panel-ops p{
+    display:inline;
+    margin-left:17px;
+}
+
+.panel-ops{
+    width:70%;
+    font-size:0.85rem;
+}
+
+.panel-deals{
+    font-size:0.9rem;
+    font-weight:700 ;
+}
+
+
+/* hero-section */
+.hero-section{
+    background-image:url("ama15.png");
+    height:280px;
+    background-size:contain;
+    display:flex;
+    justify-content:center ;
+    align-items: flex-end;
+
+}
+.hero-msg{
+  background-color: hsla(203, 82%, 63%, 0.349);
+  color:black; 
+  height:35px;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly; 
+  font-size:0.9rem;
+  width:100%;
+ position: relative;
+  top:35px
+ 
+ 
+}
+.hero-msg a{
+    color:blue;
+    cursor:pointer;
+}
+
+/* shop-section */
+
+.shop-section{
+    margin-top:35px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+}
+
+.box{
+    /* border:2px solid black; */
+     height:400px;
+     width:23%;
+     background-color:white ;
+     padding:20px 0 15px;
+     margin-top:15px;
+
+}
+
+.box-image{
+    height:300px;
+    /* border: 3px solid rgb(133, 117, 117);
+    border-radius:5px; */
+    background-size:cover;
+    background-repeat:no-repeat; 
+    margin-top:5px;
+}
+   
+.box-content{
+    margin-left:10px; 
+    margin-right:10px;
+
+}
+.box-content p{
+    color:blue;
+    cursor:pointer;
+    margin-top:30px;
+   
+}
+
+/* footer */
+
+.footer{
+    margin-top:15px;
+}
+.foot-panel1{
+    background-color:#37475a;
+    color:white;
+    height:35px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:0.85rem;
+}
+
+.footer-panel2{
+    background-color:#222f3d;
+    color:white;
+    height:300px;
+    display:flex;
+    justify-content: space-evenly;
+  
+}
+
+ul{
+    margin-top:20px;
+}
+
+ul a {
+    display:block;
+    font-size:0.85rem;
+    margin-top:15px;
+    color:#dddddd;
+
+}
+
+.footer-panel3{
+    background-color:#222f3d;
+    color:white;
+    border-top:0.5px solid white;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    background-image: url("ama17.webp") ;
+    height:60px;
+    width:150px;
+    background-size: cover;
+    margin-top:5px;
+}
+
+.footer-panel4{
+    background-color:#0f1111;
+    color:white;
+    height:80px;
+    font-size:0.8rem;
+     text-align: center;
+    
+
+}
+
+.pages{
+padding-top:25px;
+}
+
+.copyright{
+    padding-top:5px;
+    
+
+}
